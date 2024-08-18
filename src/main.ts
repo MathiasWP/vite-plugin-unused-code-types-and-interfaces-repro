@@ -16,5 +16,7 @@ class Earth implements Planet {
 }
 const earth = new Earth('My earth')
 
-
+/**
+ * "Using" the variables so they are not treeshaken away
+ */
 console.log(myFoo, earth);
