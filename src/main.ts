@@ -1,6 +1,5 @@
-
-import { Planet } from "./interface";
-import { Foo } from "./type";
+import { Planet } from "./lib/interface";
+import { Foo } from "./lib/type";
 
 /**
  * Type is used, but is marked as unused
